@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RSSExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="description_toggle_more">Toggle More Content</string>
+    <string name="lorem_big_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat risus enim, egestas venenatis est placerat et. Ut consectetur consectetur ligula, vitae tempor diam consequat quis. Proin sodales est mauris, eget auctor felis dapibus a. Nulla in feugiat sapien, sed ultricies dolor. Sed nec nulla metus. Vestibulum et laoreet diam, id aliquam purus. Morbi at orci vestibulum, dignissim nulla sed, molestie diam. Suspendisse bibendum consequat justo, non ornare leo suscipit eu. Proin commodo mauris eu lorem gravida, vitae venenatis tortor laoreet. Etiam pellentesque id justo at semper. Duis quis consequat purus. Sed mattis ligula eu dignissim malesuada. Etiam a felis imperdiet, malesuada neque in, bibendum arcu. Donec lacinia facilisis metus tempus lacinia. Aliquam in porta odio. Integer auctor imperdiet consectetur. Cras quis vestibulum ligula, et dictum tortor. Morbi id volutpat lectus, a varius mi. Quisque ut porttitor libero. Donec enim erat, semper ac sapien pellentesque, imperdiet molestie leo. Vestibulum tristique velit eget odio vehicula faucibus. Vivamus nec magna imperdiet, blandit purus eget, venenatis erat. Donec venenatis quam nec augue imperdiet aliquet. Nam sed lorem nec nunc dictum dapibus id id ipsum.</string>
+    <string name="contDescImage">Image</string>
+    <string name="btn_share">Share</string>
+    <string name="btn_open_in_browser">Open in Browser</string>
+    <string name="share_button">Share Button</string>
+    <string name="open_in_browser">Open in Browser</string>
+</resources>

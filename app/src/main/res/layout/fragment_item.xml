@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lorem ipsum title jojojo Lorem ipsum title jojojo Lorem ipsum title jojojo Lorem ipsum title jojojo"
+            android:ellipsize="end"
+            android:maxLines="2"
+
+            android:textSize="@dimen/primary_text"
+            android:paddingTop="@dimen/primary_text_top_padding"
+            android:paddingBottom="@dimen/primary_text_bottom_padding"
+            android:paddingEnd="@dimen/primary_text_right_padding"
+            android:paddingRight="@dimen/primary_text_right_padding"
+            android:paddingStart="@dimen/primary_text_left_padding"
+            android:paddingLeft="@dimen/primary_text_left_padding"
+
+            android:textColor="#222" />
+
+        <TextView
+            android:id="@+id/txtSubTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lorem ipsum subtitle"
+            android:gravity="end"
+
+            android:textSize="@dimen/sub_text"
+            android:paddingBottom="@dimen/sub_text_bottom_padding"
+            android:paddingEnd="@dimen/sub_text_right_padding"
+            android:paddingRight="@dimen/sub_text_right_padding"
+            android:paddingStart="@dimen/sub_text_left_padding"
+            android:paddingLeft="@dimen/sub_text_left_padding"
+
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/txtContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem_big_text"
+
+            android:textSize="@dimen/expanded_text"
+            android:paddingBottom="@dimen/expanded_text_bottom_padding"
+            android:paddingEnd="@dimen/expanded_text_right_padding"
+            android:paddingRight="@dimen/expanded_text_right_padding"
+            android:paddingStart="@dimen/expanded_text_left_padding"
+            android:paddingLeft="@dimen/expanded_text_left_padding"
+
+            android:maxLines="15"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/action_padding"
+            android:orientation="horizontal">
+
+            <ImageButton
+                style="@android:style/Widget.DeviceDefault.Button.Borderless.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_public_black_24dp"
+                android:id="@+id/btnBrowser"
+                android:contentDescription="@string/open_in_browser" />
+
+            <LinearLayout
+                android:gravity="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    style="@android:style/Widget.DeviceDefault.Button.Borderless.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_share_black_24dp"
+                    android:id="@+id/btnShare"
+                    android:contentDescription="@string/share_button" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
